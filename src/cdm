@@ -52,8 +52,8 @@ if [[ -n "$1" ]]; then
 	fi
 elif [[ -f "$HOME/.cdmrc" ]]; then
 	source "$HOME/.cdmrc"
-elif [[ -f /etc/cdmrc ]]; then
-	source /etc/cdmrc
+elif [[ -f /etc/X11/cdm/cdmrc ]]; then
+	source /etc/X11/cdm/cdmrc
 fi
 
 # Default options.
